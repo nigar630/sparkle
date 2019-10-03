@@ -1,0 +1,873 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    cursor: pointer;
+}
+/* *{
+    box-sizing: border-box;
+} */
+
+:root{
+    color: rgb(250, 214, 12);
+}
+/* Header started */
+.navbar{    
+    display: flex;
+    justify-content: center;
+    /* background-color:aqua; */
+    /* background-color: black; */
+}
+.navbar-container{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-container .logo{
+    width: 100px;
+    height: 50px;
+    /* background-color: white; */
+    /* background-color: blue; */
+}
+.navbar-container i{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: burlywood; */
+    color:  rgb(250, 214, 12);
+}
+
+.first-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+.first-container h2, .first-container h5{
+    font-weight: lighter;
+    color: white;
+    line-height: 1.2em;
+}
+.first-container button{
+    margin-top: 40px;
+}
+.first-container h2{
+    font-size: 1.2em;
+    letter-spacing: 8px;
+}
+.first-container h5{
+    font-size: 0.8em;
+    letter-spacing: 4px;
+}
+.second-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chocolate; */
+}
+.second-container p{
+    font-size: 0.8em;
+}
+.mountains-container{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.mountains-container i{
+    font-size: 5em;
+    color:  rgb(250, 214, 12);
+}
+.third-container {
+    width: 100%;
+    /* height: 900px; */
+    height: auto;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ourservices-container{
+    width: 42%;
+    height: auto;
+    /* height: 660px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    
+}
+.ourservices-container h2{
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-size: 1.2em;
+    line-height: 40px;
+}
+.ourservices-container i{
+    font-size: 5em;
+    /* color: red; */
+}
+.ourservices-container .servicep{
+    text-align: center;
+    font-size: 0.8em;
+    /* letter-spacing: 1px; */
+    line-height: 30px;
+}
+/* .ourservices-container  */
+.cards-container{
+    width: 70%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: crimson; */
+}
+/* .ourservices-container  */
+.cards-container .my-cards{
+    margin-left: 10px;
+}
+/* .ourservices-container  */
+.cards-container .my-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* .ourservices-container  */
+.cards-container .my-card i{
+    font-size: 2em;
+    color: rgb(250, 214, 12);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/* .ourservices-container  */
+.cards-container .my-card p{
+    /* background-color: blueviolet; */
+    text-align:center;
+    font-size: 0.78em;
+}
+.ourservices-container img{
+    width: 80px;
+    height: 60px;
+}
+.cards-container .my-card h5{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+/* .cards-container{
+    display: flex;
+    flex-direction: row;
+} */
+.progress-container{
+    width: 922px;
+    /* width: 70%; */
+    /* height: auto; */
+    height: 200px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    margin-left: 11px;
+}
+.progress-container .progress-box{
+    /* width: 213px; */
+    height: 140px;
+    background-color: white;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+.progress-container .progress-box .progress{
+    height: 4px;
+}
+.progress-container .progress-box h5{
+    font-size: 0.7em;
+}
+
+.forth-container{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.forth-container .box{
+    width: 216px;
+    height: 50px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.forth-container .box h4{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.forth-container .box h5{
+    font-size: 0.6em;
+    letter-spacing: 2px;
+}
+.fifth-container{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fifth-container .ourportfolio-container img{
+    width: 80px;
+    height:60px; 
+}
+
+.fifth-container h5{
+    font-weight: normal;    
+    letter-spacing: 5px;
+}
+.fifth-container .ourportfolio-container p{
+    font-size: 0.8em;
+    line-height: 30px;
+}
+.fifth-container .ourportfolio-container{
+    width: 42%;
+    height: auto;
+    /* background-color: chartreuse; */
+    /* display: flex;
+    flex-direction: column; */
+}
+.fifth-container .web-app-container{
+    /* width: 40%; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: darkmagenta; */
+    margin: 0px;
+}
+.fifth-container .web-app-container .portfolio-box{
+    height: 40px;
+    border: 1px solid black;
+    /* background-color: red; */
+    border-left-style: none;
+    border-right-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.fifth-container .web-app-container .portfolio-box h5{
+    font-size: 0.8em;
+}
+.fifth-container .portfolio-empty-cards{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.fifth-container .portfolio-empty-cards .empty-cards-wheat{
+    background-color: whitesmoke;
+    height: auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fifth-container .portfolio-empty-cards .empty-cards-wheat h5{
+    font-size: 0.6em;
+    letter-spacing:2px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.fifth-container .portfolio-empty-cards .empty-cards{
+    background-color: black;
+    height: auto;
+    width: 20%;
+}
+.fifth-container .portfolio-empty-cards .empty-cards-last{
+    background-color: black;
+    height: 260px;
+    width: 10%;
+}
+.fifth-container .portfolio-empty-cards .yellow-box{
+    width: 120px;
+    height: 20px;
+    background-color: rgb(250, 214, 12);
+}
+.fifth-container .portfolio-empty-cards .white-text{
+    width: 110%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fifth-container .like-yellow-box{
+    width:100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.sixth-container{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sixth-container .vov-button{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.sixth-container .vov-button h4{
+    letter-spacing: 8px;
+    font-size: 0.8em;
+}
+
+.seventh-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.seventh-container .ourteam-container{
+    width: 42%;
+    height: auto;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+}
+
+.seventh-container .ourteam-container img{
+    width: 80px;
+    height: auto;
+}
+.seventh-container .ourteam-container h3{
+    letter-spacing: 8px;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 20px;
+}
+.seventh-container .ourteam-container p{
+    font-size: 0.8em;
+    line-height: 30px;
+}
+
+.seventh-container .teamcards-container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: coral; */
+}
+.seventh-container .blackimg{
+    border: none;
+}
+.seventh-container .teammembercard{
+    border: none;
+    margin: 10px;
+}
+
+.seventh-container .teammember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+.seventh-container .teammember h5{
+    font-size: 0.78em;
+    letter-spacing: 3px;
+}
+.seventh-container .teammember .cardp{
+    text-align: center;
+}
+.eighth-container{
+    width:100%;
+    height: 400px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eighth-container .boxes-and-citates{
+    width: 61%;
+    height: 360px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.eighth-container .black-box-container{
+    width: 49%;
+    height: 360px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.eighth-container .boxes-and-citates .black-box{
+    width: 100%;
+    height: 240px;
+    background-color: black;
+    padding: 40px;
+}
+.eighth-container .boxes-and-citates .black-box-container .citat{
+    width: 80%;
+    height: auto;
+    background-color:whitesmoke;
+    /* background-color: darksalmon; */
+}
+
+.eighth-container .jeltayapolosa{
+    width: 100%;
+    height: 160px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eighth-container .boxes-and-citates .black-box p{
+    font-size:0.6em;
+    color: white;
+    line-height: 16px;
+}
+.eighth-container .boxes-and-citates .citat p{
+    font-size: 0.78em;
+    text-align: center;
+}
+.eighth-container .boxes-and-citates .citat h5{
+    font-size: 0.8em;
+    /* line-height: 1px; */
+    font-weight: bold;
+}
+.eighth-container .boxes-and-citates .seo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+footer .footer-container{
+    width: 62%;
+    height: 260px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+footer .footer-container .last-container, .first-last-container, .forth-last-container{
+    height: 220px;
+    /* background-color: darkgrey; */
+    /* margin: 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+}
+footer .footer-container .last-container{
+    width: 28%;
+    padding: 0;
+}
+footer .footer-container .first-last-container, .forth-last-container{
+    width: 40%;
+    /* background-color: darksalmon; */
+    height: 220px;
+}
+footer .footer-container .first-last-container .last-logo{
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: white;
+}
+footer .last-container p{
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+footer .first-last-container p, .forth-last-container p{
+    font-size: 0.78em;
+    margin-top: 20px;
+    color: white;
+}
+footer .last-container .yellowp{
+    color: yellow;
+}
+footer .last-container ul{
+    margin: 0;
+    padding: 0;
+    /* background-color: crimson; */
+}
+footer .last-container ul li{
+    list-style-type: none;
+    font-size: 0.78em;
+    margin-top: 10px;
+    color: white;
+}
+footer .last-container ul .firstli{
+    font-size:0.8em;
+    margin: 0;
+}
+footer .forth-last-container .contactus{
+    font-size: 0.8em;
+    margin: 0;
+}
+footer .forth-last-container .last-warning{
+    border-radius: 20px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+}
+footer .forth-last-container .last-icons{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;   
+    
+}
+footer .forth-last-container .last-icons i{
+    font-size: 1.5em;
+    color: white;
+} 
+footer .forth-last-container .last-icons .last-i{
+    margin: 10px;
+    
+}
+
+    
+/* For Tablets */
+@media (max-width: 990px){
+ 
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    /* *{
+        box-sizing: border-box;
+    } */
+    
+.first-container{
+    width: 100%;
+    height: 400px;
+}
+.second-container{
+    width: 100%;
+    height: 200px;
+}
+.mountains-container{
+    width: 80%;
+    height: auto;
+}
+.third-container {
+    width: 100%;
+    height: auto;
+}
+.ourservices-container{
+    width: 84%;
+    height: auto;   
+}
+.progress-container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: spaace-between;
+    flex-wrap: wrap;    
+    margin-left: 0px;
+}
+.progress-container .progress-box{
+    margin-left: 11px;
+    margin-right: 2px;
+    margin-top: 4px;
+    margin-bottom:4px;
+}
+
+.forth-container{
+    width: 100%;
+    height: 200px;
+  }
+.forth-container .box{
+    width: 310px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 4px;}
+
+.fifth-container .ourportfolio-container{
+        width: 84%;
+        height: auto;
+}
+
+.seventh-container .ourteam-container{
+    width: 84%;
+    height: auto;
+ }
+.eighth-container .boxes-and-citates{
+    width: 84%;
+    height: 360px;
+}
+.eighth-container .black-box-container{
+    width: 49%;
+    height: 360px;    
+}
+.eighth-container .boxes-and-citates .black-box{
+    width: 100%;
+    height: 240px;
+    background-color: black;
+    padding: 20px;
+}
+footer{
+    height: auto;
+}
+footer .footer-container{
+    width: 84%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer .footer-container .last-container, .first-last-container, .forth-last-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+}
+footer .footer-container .last-container {
+    width: 50%;
+    height: auto;
+}
+footer .first-last-container, .forth-last-container{
+    width: 50%;
+    height: auto;
+}
+
+footer .forth-last-container .last-icons .last-i{
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+footer .last-container{
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+footer .last-container ul{
+    margin: 0;
+    padding: 0;
+   width: 100%;
+    
+}
+footer .last-container ul li{
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: white;
+}
+}
+
+/* For Mobile */
+@media (max-width: 500px){
+body{
+    margin: 0;
+    padding: 0;
+}
+.first-container{
+    width: 100%;
+    height: 200px;
+    text-align:center;
+}
+.second-container{
+    width: 100%;
+    height: 200px;
+}
+.mountains-container{
+    width: 100%;
+    height: auto;
+}
+
+.ourservices-container{
+    width: 100%;
+    height: auto;   
+}
+.cards-container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.progress-container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+    margin-left: 0px;
+}
+.progress-container .progress-box{
+    margin-left: 11px;
+    margin-right: 2px;
+    margin-top: 4px;
+    margin-bottom:4px;
+}
+.fifth-container .ourportfolio-container{
+    width: 100%;
+    height: auto;
+}
+.fifth-container .web-app-container{
+    /* width: 40%; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-container .portfolio-empty-cards{
+    display: flex;
+    flex-direction: column;
+}
+.fifth-container .portfolio-empty-cards .empty-cards    {
+    display:none;
+    visibility: hidden;
+}
+.fifth-container .portfolio-empty-cards .empty-cards-wheat{
+    width: 100%;
+}
+.seventh-container .ourteam-container{
+    width: 100%;
+    height: auto;
+}
+.seventh-container .teamcards-container{
+    width: 70%;
+    height: auto;
+}
+.eighth-container{
+    width: 100%;
+}
+.eighth-container .boxes-and-citates{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eighth-container .black-box-container{
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.eighth-container .boxes-and-citates .black-box{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 0px;
+}
+.eighth-container .boxes-and-citates .black-box-container .citat{
+    width: 80%;
+    height: auto;
+    /* background-color: darksalmon; */
+}
+
+.eighth-container .jeltayapolosa{
+    width: 100%;
+    height: 160px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: auto;
+}
+footer .footer-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .footer-container .last-container {
+    width: 100%;
+    height: auto;
+}
+footer .first-last-container, .forth-last-container{
+    width: 100%;
+    height: auto;
+}
+
+footer .footer-container .first-last-container, .forth-last-container{
+    width: 100%;
+    /* background-color: darksalmon; */
+    height: 220px;
+}
+
+
+}
